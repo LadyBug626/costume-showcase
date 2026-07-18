@@ -104,7 +104,22 @@ footer {
     font-size: 0.8rem;
     color: #888;
 }
+/* =========================================
+   JAVASCRIPT INTERACTIONS
+   ========================================= */
+/* This class hides the extra info by default */
+.hidden {
+    display: none;
+}
 
+/* Styles the revealed text to be slightly different */
+#extra-info {
+    margin-top: 1.5rem;
+    font-style: italic;
+    color: #dcdcdc;
+    border-left: 3px solid #D32F2F;
+    padding-left: 1rem;
+}
 
 @media screen and (max-width: 768px) {
     
